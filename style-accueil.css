@@ -1,0 +1,142 @@
+/* Styles généraux */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #f0a500;
+}
+
+/* Section d'introduction */
+.intro-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.intro-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Produits vedettes */
+.produits-vedettes {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.produits-vedettes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.produits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.produit {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.produit img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.produit h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.produit p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.prix {
+    font-size: 20px;
+    color: #e60000;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #f0a500;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}

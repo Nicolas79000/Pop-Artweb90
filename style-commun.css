@@ -1,0 +1,33 @@
+/* Structure de base */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer uniformisé */
+footer {
+    background-color: #1a1a1a; /* Couleur sombre */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Pour pousser le footer vers le bas */
+}
+
+/* Liens dans le footer */
+footer .social-links a {
+    color: #f0c041; /* Couleur des liens */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
